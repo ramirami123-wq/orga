@@ -180,10 +180,11 @@
         "item_GpEwj6": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/1774964646_phpvtuurl0sj3d8am8dZPL.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "",
-            "content": "<p><br/>Stylish yet practical, this pouch helps you stay prepared without adding bulk to your bag. Whether at home or on the move, Nazzemni makes organization simple and elegant. ✨<br/><br/></p>",
+            "title": "Four devices. PD fast charging. Zero clutter.",
+            "content": "<p><br/>A precision-machined metal body houses USB-C with Power Delivery, dual USB-A ports, and a retractable cable that disappears when you don't need it. A digital voltage display tells you exactly what's happening, in real time. Charges your phone, tablet, dashcam, or a passenger's device — simultaneously.<br/><br/></p>",
             "button_text": "",
             "button_link": ""
           }
@@ -192,7 +193,6 @@
       "block_order": [
         "item_GpEwj6"
       ],
-      "disabled": true,
       "name": "Image with text",
       "settings": {
         "reveal_on_scroll": true,
@@ -205,172 +205,6 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "com_6hdjLn": {
-      "type": "com",
-      "blocks": {
-        "item_77LR69": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Large capacity — fits all essentials in one pouch",
-            "first_column": "Yes",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_dEPCJH": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Lightweight & travel-friendly",
-            "first_column": "Yes",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_KWPwtH": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Stylish modern design",
-            "first_column": "Yes",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_jEyeCX": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Durable materials for daily use",
-            "first_column": "Yes",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_77LR69",
-        "item_dEPCJH",
-        "item_KWPwtH",
-        "item_jEyeCX"
-      ],
-      "name": "SS - Comparison Table #4",
-      "settings": {
-        "heading": "<h2>US VS OTHER BRANDS</h2>",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "heading_size": 56,
-        "heading_size_mobile": 32,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "table_width": 80,
-        "table_columns": 2,
-        "table_align": "center",
-        "table_mt": 44,
-        "table_column_active": "1",
-        "table_column_active_radius": 16,
-        "table_column_active_border_thickness": 2,
-        "table_heading_image_size": 66,
-        "table_heading_image_size_mobile": 40,
-        "first_heading": "US",
-        "second_heading": "OTHERS",
-        "third_heading": "",
-        "four_heading": "",
-        "table_heading_custom": false,
-        "table_heading_font": "assistant_n4",
-        "table_heading_size": 16,
-        "table_heading_size_mobile": 10,
-        "table_heading_height": 100,
-        "table_heading_align": "center",
-        "table_heading_padding_horizontal": 12,
-        "table_heading_padding_horizontal_mobile": 4,
-        "table_heading_padding_vertical": 10,
-        "table_heading_padding_vertical_mobile": 10,
-        "table_row_padding_horizontal": 16,
-        "table_row_padding_horizontal_mobile": 10,
-        "table_row_padding_vertical": 16,
-        "table_row_padding_vertical_mobile": 10,
-        "table_row_border_thickness": 1,
-        "table_row_heading_image_size": 66,
-        "table_row_heading_image_size_mobile": 40,
-        "table_row_heading_width_mobile": 66,
-        "table_row_heading_custom": false,
-        "table_row_heading_font": "assistant_n4",
-        "table_row_heading_size": 22,
-        "table_row_heading_size_mobile": 16,
-        "table_row_heading_height": 130,
-        "table_row_heading_align": "left",
-        "table_row_text_custom": false,
-        "table_row_text_font": "assistant_n4",
-        "table_row_text_size": 20,
-        "table_row_text_size_mobile": 16,
-        "table_row_text_height": 130,
-        "table_row_text_align": "center",
-        "table_row_image_size": 52,
-        "table_row_image_size_mobile": 40,
-        "buttons_mt": 44,
-        "buttons_gap": 16,
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 22,
-        "button_size_mobile": 18,
-        "button_height": 100,
-        "button_padding_vertical": 20,
-        "button_padding_horizontal": 40,
-        "button_radius": 6,
-        "button_border_thickness": 2,
-        "second_button": "",
-        "second_button_url": "",
-        "second_button_custom": false,
-        "second_button_font": "josefin_sans_n4",
-        "second_button_size": 22,
-        "second_button_size_mobile": 18,
-        "second_button_height": 100,
-        "second_button_padding_vertical": 20,
-        "second_button_padding_horizontal": 40,
-        "second_button_radius": 6,
-        "second_button_border_thickness": 2,
-        "table_heading_color": "#2f1718",
-        "table_heading_active_color": "#ffffff",
-        "table_heading_bg_active_color": "#2a3e79",
-        "table_column_active_bg_color": "#ffffff",
-        "table_column_active_border_color": "#2a3e79",
-        "table_row_border_color": "#d3cabc",
-        "table_row_heading_color": "#2f1718",
-        "table_row_text_color": "#2f1718",
-        "table_row_active_text_color": "#2a3e79",
-        "button_color": "#2a3e79",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "",
-        "button_bg_hover_color": "#2a3e79",
-        "button_border_color": "#2a3e79",
-        "button_border_hover_color": "#2a3e79",
-        "second_button_color": "#ffffff",
-        "second_button_hover_color": "#ffffff",
-        "second_button_bg_color": "#2a3e79",
-        "second_button_bg_hover_color": "#2a3e79",
-        "second_button_border_color": "#2a3e79",
-        "second_button_border_hover_color": "#2a3e79",
-        "heading_color": "#2f1718",
-        "background_color": "#fffaed",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": false
       }
     },
     "faq_cbkQ3V": {
@@ -442,6 +276,19 @@
         "include_horizontal_margins": true,
         "include_vertical_margins": true
       }
+    },
+    "custom_liquid_REi6jW": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "liquid": "{% comment %} Gauzio comparison table {% endcomment %}\n<style>\n  .gz-cmp {\n    background: #FFFFFF;\n    padding: 96px 24px;\n  }\n  .gz-cmp-heading {\n    font-family: 'Inter', sans-serif;\n    font-weight: 700;\n    font-size: 42px;\n    line-height: 1.1;\n    color: #0F1115;\n    text-align: center;\n    margin: 0 auto 14px;\n    letter-spacing: -0.02em;\n  }\n  .gz-cmp-sub {\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n    font-size: 15px;\n    color: rgba(15, 17, 21, 0.6);\n    margin: 0 auto 56px;\n    max-width: 520px;\n    line-height: 1.55;\n  }\n  .gz-cmp-table {\n    max-width: 880px;\n    margin: 0 auto;\n    background: #FFFFFF;\n    border-radius: 14px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(15, 17, 21, 0.06);\n    border: 1px solid rgba(15, 17, 21, 0.05);\n  }\n  .gz-cmp-row {\n    display: grid;\n    grid-template-columns: 1.6fr 1fr 1fr;\n    border-bottom: 1px solid rgba(15, 17, 21, 0.06);\n  }\n  .gz-cmp-row:last-child {\n    border-bottom: none;\n  }\n  .gz-cmp-header {\n    background: #F4F5F7;\n  }\n  .gz-cmp-header .gz-cmp-us,\n  .gz-cmp-header .gz-cmp-them {\n    font-family: 'Inter', sans-serif;\n    font-weight: 700;\n    font-size: 14px;\n    letter-spacing: 0.06em;\n    text-transform: uppercase;\n  }\n  .gz-cmp-header .gz-cmp-us { color: #2667FF; }\n  .gz-cmp-header .gz-cmp-them { color: rgba(15, 17, 21, 0.5); }\n  .gz-cmp-cell {\n    padding: 20px 24px;\n    display: flex;\n    align-items: center;\n    font-family: 'Inter', sans-serif;\n    font-size: 15px;\n    color: #0F1115;\n    line-height: 1.4;\n  }\n  .gz-cmp-feature {\n    font-weight: 500;\n  }\n  .gz-cmp-us, .gz-cmp-them {\n    justify-content: center;\n  }\n  .gz-cmp-us {\n    background: rgba(38, 103, 255, 0.04);\n  }\n  .gz-cmp-check, .gz-cmp-x {\n    width: 24px;\n    height: 24px;\n    flex-shrink: 0;\n  }\n  .gz-cmp-check { color: #2667FF; }\n  .gz-cmp-x { color: rgba(15, 17, 21, 0.3); }\n  @media (max-width: 749px) {\n    .gz-cmp { padding: 56px 16px; }\n    .gz-cmp-heading { font-size: 28px; }\n    .gz-cmp-row { grid-template-columns: 1.4fr 0.7fr 0.7fr; }\n    .gz-cmp-cell { padding: 14px 12px; font-size: 13px; }\n    .gz-cmp-feature { font-size: 13px; }\n    .gz-cmp-header .gz-cmp-us,\n    .gz-cmp-header .gz-cmp-them { font-size: 11px; }\n    .gz-cmp-check, .gz-cmp-x { width: 20px; height: 20px; }\n  }\n</style>\n\n<div class=\"gz-cmp\">\n  <h2 class=\"gz-cmp-heading\">Built to outperform.</h2>\n  <p class=\"gz-cmp-sub\">Six reasons Gauzio replaces what's in your console.</p>\n  \n  <div class=\"gz-cmp-table\">\n    <div class=\"gz-cmp-row gz-cmp-header\">\n      <div class=\"gz-cmp-cell\"></div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">Gauzio</div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">Others</div>\n    </div>\n    \n    <div class=\"gz-cmp-row\">\n      <div class=\"gz-cmp-cell gz-cmp-feature\">PD fast charging (USB-C + dual USB-A)</div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">\n        <svg class=\"gz-cmp-check\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n      </div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">\n        <svg class=\"gz-cmp-x\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>\n      </div>\n    </div>\n    \n    <div class=\"gz-cmp-row\">\n      <div class=\"gz-cmp-cell gz-cmp-feature\">Built-in retractable cable, no tangle</div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">\n        <svg class=\"gz-cmp-check\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n      </div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">\n        <svg class=\"gz-cmp-x\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>\n      </div>\n    </div>\n    \n    <div class=\"gz-cmp-row\">\n      <div class=\"gz-cmp-cell gz-cmp-feature\">Real-time digital voltage display</div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">\n        <svg class=\"gz-cmp-check\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n      </div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">\n        <svg class=\"gz-cmp-x\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>\n      </div>\n    </div>\n    \n    <div class=\"gz-cmp-row\">\n      <div class=\"gz-cmp-cell gz-cmp-feature\">Premium machined metal body</div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">\n        <svg class=\"gz-cmp-check\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n      </div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">\n        <svg class=\"gz-cmp-x\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>\n      </div>\n    </div>\n    \n    <div class=\"gz-cmp-row\">\n      <div class=\"gz-cmp-cell gz-cmp-feature\">180° adjustable angle</div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">\n        <svg class=\"gz-cmp-check\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n      </div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">\n        <svg class=\"gz-cmp-x\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>\n      </div>\n    </div>\n    \n    <div class=\"gz-cmp-row\">\n      <div class=\"gz-cmp-cell gz-cmp-feature\">Charges up to 4 devices simultaneously</div>\n      <div class=\"gz-cmp-cell gz-cmp-us\">\n        <svg class=\"gz-cmp-check\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n      </div>\n      <div class=\"gz-cmp-cell gz-cmp-them\">\n        <svg class=\"gz-cmp-x\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>\n      </div>\n    </div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -451,7 +298,7 @@
     "1772112756b71eda01",
     "image_with_text_8YkwVd",
     "image_with_text_XrnFrQ",
-    "com_6hdjLn",
+    "custom_liquid_REi6jW",
     "faq_cbkQ3V",
     "1772123363ce666331"
   ]
