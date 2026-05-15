@@ -92,6 +92,19 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "custom_liquid_p7antq": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "{% comment %} Gauzio spec strip {% endcomment %}\n<style>\n  .gz-stats {\n    background: #0F1115;\n    padding: 64px 24px;\n    color: #FFFFFF;\n  }\n  .gz-stats-grid {\n    max-width: 1100px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 24px;\n  }\n  .gz-stat {\n    text-align: center;\n    padding: 0 12px;\n    border-right: 1px solid rgba(255, 255, 255, 0.1);\n  }\n  .gz-stat:last-child {\n    border-right: none;\n  }\n  .gz-stat-value {\n    font-family: 'Inter', sans-serif;\n    font-size: 56px;\n    font-weight: 700;\n    line-height: 1;\n    color: #2667FF;\n    margin: 0 0 12px;\n    letter-spacing: -0.02em;\n  }\n  .gz-stat-label {\n    font-family: 'Inter', sans-serif;\n    font-size: 12px;\n    font-weight: 500;\n    letter-spacing: 0.1em;\n    text-transform: uppercase;\n    color: rgba(255, 255, 255, 0.65);\n    margin: 0;\n    line-height: 1.4;\n  }\n  @media (max-width: 749px) {\n    .gz-stats { padding: 40px 16px; }\n    .gz-stats-grid { grid-template-columns: 1fr 1fr; gap: 28px 16px; }\n    .gz-stat { border-right: none; padding: 0; }\n    .gz-stat-value { font-size: 38px; }\n    .gz-stat-label { font-size: 10px; }\n  }\n</style>\n\n<div class=\"gz-stats\">\n  <div class=\"gz-stats-grid\">\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">30W</p>\n      <p class=\"gz-stat-label\">PD Fast Charging</p>\n    </div>\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">4-in-1</p>\n      <p class=\"gz-stat-label\">Multi-device Ports</p>\n    </div>\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">180°</p>\n      <p class=\"gz-stat-label\">Adjustable Angle</p>\n    </div>\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">100%</p>\n      <p class=\"gz-stat-label\">Metal Build</p>\n    </div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "rich_text_8iDkdx": {
       "type": "rich-text",
       "name": "Rich text",
@@ -111,12 +124,17 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "disabled": true,
+    "custom_liquid_49Ebth": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
-        "reveal_on_scroll": true,
-        "label": "Shop the looks"
+        "subheading": "",
+        "title": "",
+        "liquid": "{% comment %} Gauzio feature grid {% endcomment %}\n<style>\n  .gz-features {\n    background: #FFFFFF;\n    padding: 96px 24px;\n  }\n  .gz-features-heading {\n    font-family: 'Inter', sans-serif;\n    font-weight: 700;\n    font-size: 42px;\n    line-height: 1.05;\n    color: #0F1115;\n    text-align: center;\n    margin: 0 auto 12px;\n    letter-spacing: -0.02em;\n  }\n  .gz-features-sub {\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n    font-size: 15px;\n    color: rgba(15, 17, 21, 0.6);\n    margin: 0 auto 56px;\n    max-width: 520px;\n    line-height: 1.55;\n  }\n  .gz-features-grid {\n    max-width: 1100px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 16px;\n  }\n  .gz-feature {\n    background: #F4F5F7;\n    padding: 36px 32px;\n    border-radius: 12px;\n    transition: transform 0.2s ease, background 0.2s ease;\n  }\n  .gz-feature:hover {\n    background: #ECEEF1;\n    transform: translateY(-2px);\n  }\n  .gz-feature-icon {\n    width: 40px;\n    height: 40px;\n    color: #2667FF;\n    margin: 0 0 20px;\n  }\n  .gz-feature-title {\n    font-family: 'Inter', sans-serif;\n    font-weight: 600;\n    font-size: 20px;\n    color: #0F1115;\n    margin: 0 0 10px;\n    letter-spacing: -0.01em;\n  }\n  .gz-feature-body {\n    font-family: 'Inter', sans-serif;\n    font-size: 14px;\n    line-height: 1.55;\n    color: rgba(15, 17, 21, 0.65);\n    margin: 0;\n  }\n  @media (max-width: 749px) {\n    .gz-features { padding: 56px 16px; }\n    .gz-features-heading { font-size: 30px; }\n    .gz-features-grid { grid-template-columns: 1fr; gap: 12px; }\n    .gz-feature { padding: 24px 22px; }\n    .gz-feature-icon { width: 32px; height: 32px; margin-bottom: 14px; }\n    .gz-feature-title { font-size: 17px; }\n  }\n</style>\n\n<div class=\"gz-features\">\n  <h2 class=\"gz-features-heading\">Built for the long drive.</h2>\n  <p class=\"gz-features-sub\">Every detail designed for daily use — from the precision-machined housing to the retractable cable system.</p>\n  <div class=\"gz-features-grid\">\n    <div class=\"gz-feature\">\n      <svg class=\"gz-feature-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>\n      <h3 class=\"gz-feature-title\">PD Fast Charging</h3>\n      <p class=\"gz-feature-body\">Power Delivery via USB-C — charges your phone from 0 to 50% in about 25 minutes. Compatible with the latest iPhone and Android.</p>\n    </div>\n    <div class=\"gz-feature\">\n      <svg class=\"gz-feature-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M6 12h.01M10 12h.01M14 12h.01M18 12h.01\"/></svg>\n      <h3 class=\"gz-feature-title\">Four Devices, One Charger</h3>\n      <p class=\"gz-feature-body\">USB-C plus dual USB-A plus a built-in retractable cable — power your phone, tablet, dashcam, and a passenger's device simultaneously.</p>\n    </div>\n    <div class=\"gz-feature\">\n      <svg class=\"gz-feature-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"14\" rx=\"2\"/><line x1=\"7\" y1=\"10\" x2=\"10\" y2=\"10\"/><line x1=\"13\" y1=\"10\" x2=\"17\" y2=\"10\"/><line x1=\"7\" y1=\"14\" x2=\"17\" y2=\"14\"/></svg>\n      <h3 class=\"gz-feature-title\">Digital Voltage Display</h3>\n      <p class=\"gz-feature-body\">Real-time readout on the integrated screen lets you monitor charging at a glance — no guesswork, no surprise drainage.</p>\n    </div>\n    <div class=\"gz-feature\">\n      <svg class=\"gz-feature-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n      <h3 class=\"gz-feature-title\">Premium Metal Build</h3>\n      <p class=\"gz-feature-body\">Precision-machined aluminum housing. Retractable cable that stays clean. 180° adjustable angle that fits any car interior.</p>\n    </div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "custom_liquid_nHhMwM": {
@@ -131,27 +149,14 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "custom_liquid_p7antq": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "liquid": "{% comment %} Gauzio spec strip {% endcomment %}\n<style>\n  .gz-stats {\n    background: #0F1115;\n    padding: 64px 24px;\n    color: #FFFFFF;\n  }\n  .gz-stats-grid {\n    max-width: 1100px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 24px;\n  }\n  .gz-stat {\n    text-align: center;\n    padding: 0 12px;\n    border-right: 1px solid rgba(255, 255, 255, 0.1);\n  }\n  .gz-stat:last-child {\n    border-right: none;\n  }\n  .gz-stat-value {\n    font-family: 'Inter', sans-serif;\n    font-size: 56px;\n    font-weight: 700;\n    line-height: 1;\n    color: #2667FF;\n    margin: 0 0 12px;\n    letter-spacing: -0.02em;\n  }\n  .gz-stat-label {\n    font-family: 'Inter', sans-serif;\n    font-size: 12px;\n    font-weight: 500;\n    letter-spacing: 0.1em;\n    text-transform: uppercase;\n    color: rgba(255, 255, 255, 0.65);\n    margin: 0;\n    line-height: 1.4;\n  }\n  @media (max-width: 749px) {\n    .gz-stats { padding: 40px 16px; }\n    .gz-stats-grid { grid-template-columns: 1fr 1fr; gap: 28px 16px; }\n    .gz-stat { border-right: none; padding: 0; }\n    .gz-stat-value { font-size: 38px; }\n    .gz-stat-label { font-size: 10px; }\n  }\n</style>\n\n<div class=\"gz-stats\">\n  <div class=\"gz-stats-grid\">\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">30W</p>\n      <p class=\"gz-stat-label\">PD Fast Charging</p>\n    </div>\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">4-in-1</p>\n      <p class=\"gz-stat-label\">Multi-device Ports</p>\n    </div>\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">180°</p>\n      <p class=\"gz-stat-label\">Adjustable Angle</p>\n    </div>\n    <div class=\"gz-stat\">\n      <p class=\"gz-stat-value\">100%</p>\n      <p class=\"gz-stat-label\">Metal Build</p>\n    </div>\n  </div>\n</div>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "custom_liquid_XkBxRJ",
     "featured_product_qm78ER",
+    "custom_liquid_p7antq",
+    "custom_liquid_49Ebth",
     "rich_text_8iDkdx",
-    "shop-the-look",
-    "custom_liquid_nHhMwM",
-    "custom_liquid_p7antq"
+    "custom_liquid_nHhMwM"
   ]
 }
