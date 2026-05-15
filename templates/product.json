@@ -207,76 +207,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "faq_cbkQ3V": {
-      "type": "faq",
-      "blocks": {
-        "category_y3mKtw": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "title": "Shipping"
-          }
-        },
-        "question_adqrYK": {
-          "type": "question",
-          "settings": {
-            "title": "Is the pouch suitable for travel?",
-            "answer": "<p>Yes! The Nazzemni Makeup Pouch is lightweight, compact, and travel-friendly — ideal for vacations, business trips, gym bags, or everyday use.</p>"
-          }
-        },
-        "question_TDP7NK": {
-          "type": "question",
-          "settings": {
-            "title": "Does it have compartments inside?",
-            "answer": "<p>Absolutely. It features multiple partitions to help you keep items organized and easy to find.</p>"
-          }
-        },
-        "question_hPGXCN": {
-          "type": "question",
-          "settings": {
-            "title": "Can it be used for things other than makeup?",
-            "answer": "<p>Of course! Many customers use it for toiletries, tech accessories, stationery, or small personal items.<br/></p>"
-          }
-        },
-        "question_7Rxwez": {
-          "type": "question",
-          "settings": {
-            "title": "Is this a good gift option?",
-            "answer": "<p>Definitely. Its stylish design and practicality make it a great gift for friends, family, or anyone who loves staying organized.</p>"
-          }
-        },
-        "question_Pzgd7t": {
-          "type": "question",
-          "settings": {
-            "title": "Is it lightweight to carry?",
-            "answer": "<p>Yes, it’s designed to be portable and easy to carry without adding bulk to your bag. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "category_y3mKtw",
-        "question_adqrYK",
-        "question_TDP7NK",
-        "question_hPGXCN",
-        "question_7Rxwez",
-        "question_Pzgd7t"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "show_navigation": false,
-        "title": "FAQ",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1772123363ce666331": {
-      "type": "apps",
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
-      }
-    },
     "custom_liquid_REi6jW": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -289,6 +219,26 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "custom_liquid_d7RryD": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "{% comment %} Gauzio FAQ {% endcomment %}\n<style>\n  .gz-faq {\n    background: #FFFFFF;\n    padding: 96px 24px;\n  }\n  .gz-faq-heading {\n    font-family: 'Inter', sans-serif;\n    font-weight: 700;\n    font-size: 42px;\n    line-height: 1.1;\n    color: #0F1115;\n    text-align: center;\n    margin: 0 auto 14px;\n    letter-spacing: -0.02em;\n  }\n  .gz-faq-sub {\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n    font-size: 15px;\n    color: rgba(15, 17, 21, 0.6);\n    margin: 0 auto 56px;\n    max-width: 520px;\n    line-height: 1.55;\n  }\n  .gz-faq-list {\n    max-width: 760px;\n    margin: 0 auto;\n  }\n  .gz-faq-item {\n    border-bottom: 1px solid rgba(15, 17, 21, 0.1);\n  }\n  .gz-faq-item[open] {\n    background: rgba(38, 103, 255, 0.02);\n  }\n  .gz-faq-q {\n    cursor: pointer;\n    list-style: none;\n    padding: 24px 8px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    font-family: 'Inter', sans-serif;\n    font-size: 16px;\n    font-weight: 600;\n    color: #0F1115;\n    transition: color 0.15s ease;\n  }\n  .gz-faq-q::-webkit-details-marker { display: none; }\n  .gz-faq-q:hover { color: #2667FF; }\n  .gz-faq-icon {\n    width: 20px;\n    height: 20px;\n    color: #2667FF;\n    flex-shrink: 0;\n    margin-left: 16px;\n    transition: transform 0.2s ease;\n  }\n  .gz-faq-item[open] .gz-faq-icon {\n    transform: rotate(45deg);\n  }\n  .gz-faq-a {\n    padding: 0 8px 24px;\n    font-family: 'Inter', sans-serif;\n    font-size: 15px;\n    line-height: 1.6;\n    color: rgba(15, 17, 21, 0.7);\n    margin: 0;\n  }\n  @media (max-width: 749px) {\n    .gz-faq { padding: 56px 16px; }\n    .gz-faq-heading { font-size: 28px; }\n    .gz-faq-q { font-size: 15px; padding: 18px 4px; }\n    .gz-faq-a { font-size: 14px; padding: 0 4px 18px; }\n  }\n</style>\n\n<div class=\"gz-faq\">\n  <h2 class=\"gz-faq-heading\">Questions</h2>\n  <p class=\"gz-faq-sub\">Everything you'd want to know before plugging in.</p>\n  \n  <div class=\"gz-faq-list\">\n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        Does it work with iPhone and Android?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">Yes. USB-C with PD supports the latest iPhones and Android phones. USB-A ports work with every device that ships with a USB cable.</p>\n    </details>\n    \n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        Is the retractable cable USB-C or Lightning?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">USB-C — universal across modern devices.</p>\n    </details>\n    \n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        Will it fit my older car?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">Yes. Plugs into any standard 12V cigarette lighter socket. No adapter needed.</p>\n    </details>\n    \n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        How fast does it charge?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">PD fast charging delivers up to 30W via USB-C — enough to power an iPhone from 0–50% in about 25 minutes. Standard speeds via USB-A.</p>\n    </details>\n    \n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        What if multiple people charge at once?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">The 4-port system intelligently distributes power. All devices charge — fast charging stays optimized on the USB-C port.</p>\n    </details>\n    \n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        Do you ship outside Lebanon?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">Not yet. Gauzio ships within Lebanon for $4 flat. International coming soon.</p>\n    </details>\n    \n    <details class=\"gz-faq-item\">\n      <summary class=\"gz-faq-q\">\n        What if I don't like it?\n        <svg class=\"gz-faq-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/></svg>\n      </summary>\n      <p class=\"gz-faq-a\">30-day returns. Send it back, full refund. No questions.</p>\n    </details>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1772123363ce666331": {
+      "type": "apps",
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
     }
   },
   "order": [
@@ -299,7 +249,7 @@
     "image_with_text_8YkwVd",
     "image_with_text_XrnFrQ",
     "custom_liquid_REi6jW",
-    "faq_cbkQ3V",
+    "custom_liquid_d7RryD",
     "1772123363ce666331"
   ]
 }
