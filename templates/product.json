@@ -22,7 +22,7 @@
         "liquid_WqHpzt": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">⚡ PD Fast Charging</span> – USB-C with Power Delivery charges your phone from 0 to 50% in about 25 minutes.<br><br>\n<span style=\"font-weight: bold;\">🔌 Four Devices, One Charger</span> – USB-C plus dual USB-A plus a built-in retractable cable. Power your phone, tablet, dashcam, and a passenger's device simultaneously.<br><br>\n<span style=\"font-weight: bold;\">📟 Digital Voltage Display</span> – Real-time readout confirms charging is active and stable.<br><br>\n<span style=\"font-weight: bold;\">🛡️ Premium Metal Body</span> – Precision-machined housing, retractable cable, 180° adjustable angle.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">⚡ PD Fast Charging</span> – USB-C with Power Delivery charges your phone from 0 to 50% in about 25 minutes.<br><br>\n<span style=\"font-weight: bold;\">🔌 Four Devices, One Charger</span> – USB-C plus dual USB-A plus a built-in retractable cable. Power your phone, tablet, dashcam, and a passenger's device simultaneously.<br><br>\n\n<span style=\"font-weight: bold;\">🛡️ Premium Metal Body</span> – Precision-machined housing, retractable cable, 180° adjustable angle.\n</div>"
           }
         },
         "variant_picker": {
