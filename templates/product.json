@@ -54,7 +54,7 @@
           "type": "liquid",
           "name": "Order now to receive by",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+            "liquid": "<style>\n  .gz-delivery {\n    background: #F4F5F7;\n    border: 1px solid rgba(15, 17, 21, 0.06);\n    border-radius: 10px;\n    padding: 14px 16px;\n    margin: 14px 0;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    font-family: 'Inter', sans-serif;\n    font-size: 14px;\n    color: #0F1115;\n  }\n  .gz-delivery-icon {\n    width: 22px;\n    height: 22px;\n    color: #2667FF;\n    flex-shrink: 0;\n  }\n  .gz-delivery-text strong {\n    font-weight: 600;\n  }\n</style>\n\n<div class=\"gz-delivery\">\n  <svg class=\"gz-delivery-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M16 16h2l3-5h-5\"/>\n    <path d=\"M9 16h7V5H2v11h2\"/>\n    <circle cx=\"7\" cy=\"16\" r=\"2\"/>\n    <circle cx=\"18\" cy=\"16\" r=\"2\"/>\n  </svg>\n  <span class=\"gz-delivery-text\">\n    {% assign today_s = 'now' | date: '%s' | plus: 0 %}\n    {% assign start_s = today_s | plus: 259200 %}\n    {% assign end_s = today_s | plus: 518400 %}\n    Order now to receive by <strong>{{ start_s | date: '%A, %B %-d' }} – {{ end_s | date: '%A, %B %-d' }}</strong>\n  </span>\n</div>"
           }
         }
       },
@@ -105,6 +105,39 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_8YkwVd": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_BrjwQF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1774964646_phpumvpse0fv3hv9ZyIHZY.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Your car looks like a tangled cable graveyard.",
+            "content": "<p><br/>Phone charging on the passenger seat. Tablet plugged into a 12V adapter that wobbles. Cables stretched across the console. Most car chargers are clunky, slow, or only power one device at a time.<br/><br/></p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BrjwQF"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "1772112756b71eda01": {
       "type": "_blocks",
       "blocks": {
@@ -139,39 +172,6 @@
         "ai_gen_block_adef03d_DcHCBg"
       ],
       "settings": {}
-    },
-    "image_with_text_8YkwVd": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_BrjwQF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1774964646_phpumvpse0fv3hv9ZyIHZY.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Your car looks like a tangled cable graveyard.",
-            "content": "<p><br/>Phone charging on the passenger seat. Tablet plugged into a 12V adapter that wobbles. Cables stretched across the console. Most car chargers are clunky, slow, or only power one device at a time.<br/><br/></p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_BrjwQF"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     },
     "image_with_text_XrnFrQ": {
       "type": "image-with-text",
